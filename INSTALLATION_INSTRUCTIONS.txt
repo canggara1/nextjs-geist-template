@@ -1,0 +1,56 @@
+Instruksi Instalasi Aplikasi Text to Excel Converter
+
+Panduan ini ditujukan untuk orang yang tidak memiliki pengalaman programming. Ikuti langkah-langkah berikut dengan teliti.
+
+1. Persiapan Lingkungan
+   - Pastikan komputer Anda sudah terpasang Node.js dan npm (Node Package Manager).
+   - Jika belum, silakan download dan install dari https://nodejs.org/
+   - Pilih versi LTS (Long Term Support) untuk stabilitas.
+
+2. Mendapatkan Kode Aplikasi
+   - Dapatkan folder proyek aplikasi (misalnya dari file zip atau repository).
+   - Pastikan Anda memiliki akses ke folder proyek tersebut di komputer Anda.
+
+3. Membuka Terminal atau Command Prompt
+   - Windows: Tekan tombol Windows, ketik "cmd" lalu tekan Enter.
+   - MacOS: Buka aplikasi Terminal dari folder Utilities.
+   - Linux: Buka Terminal dari menu aplikasi.
+
+4. Navigasi ke Folder Proyek
+   - Gunakan perintah `cd` untuk masuk ke folder proyek.
+   - Contoh: Jika folder proyek ada di Desktop, ketik:
+     cd Desktop/nama_folder_proyek
+   - Ganti "nama_folder_proyek" dengan nama folder sebenarnya.
+
+5. Instalasi Dependensi
+   - Ketik perintah berikut untuk menginstal semua paket yang dibutuhkan aplikasi:
+     npm install --legacy-peer-deps
+   - Tunggu hingga proses instalasi selesai.
+
+6. Menjalankan Aplikasi
+   - Setelah instalasi selesai, jalankan aplikasi dengan perintah:
+     PORT=8000 npm run dev
+   - Aplikasi akan berjalan di alamat http://localhost:8000
+
+7. Membuka Aplikasi di Browser
+   - Buka browser (Chrome, Firefox, Edge, dll).
+   - Ketik alamat berikut di address bar:
+     http://localhost:8000
+   - Tekan Enter, aplikasi akan muncul.
+
+8. Menggunakan Aplikasi
+   - Anda dapat mengetik atau menempelkan teks ke dalam kotak input.
+   - Atau klik "Choose File" untuk membuka file .txt yang berisi teks.
+   - Masukkan nama file Excel yang diinginkan.
+   - Klik tombol "Convert to Excel and Download" untuk mengunduh file Excel.
+
+9. Menghentikan Aplikasi
+   - Kembali ke terminal tempat aplikasi berjalan.
+   - Tekan tombol Ctrl + C untuk menghentikan aplikasi.
+
+10. Catatan Tambahan
+    - Jika port 8000 sudah digunakan, Anda bisa mengganti nomor port di perintah jalankan, misalnya:
+      PORT=3000 npm run dev
+    - Pastikan nomor port yang digunakan tidak bentrok dengan aplikasi lain.
+
+Jika ada kendala atau pertanyaan, silakan hubungi pengembang aplikasi untuk bantuan lebih lanjut.
